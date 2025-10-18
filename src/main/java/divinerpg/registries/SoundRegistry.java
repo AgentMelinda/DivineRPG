@@ -126,7 +126,7 @@ public class SoundRegistry {
         KAZROTIC_HURT = registerSound("kazrotic_hurt"),
         KING_OF_SCORCHERS = registerSound("king_of_scorchers"),
         KING_OF_SCORCHERS_HURT = registerSound("king_of_scorchers_hurt"),
-        KOBBLIN = registerSound("kobblin"),
+       // KOBBLIN = registerSound("kobblin"),
         LADY_LUNA = registerSound("lady_luna"),
         LADY_LUNA_HURT = registerSound("lady_luna_hurt"),
         LA_VEKOR = registerSound("la_vekor"),

@@ -1707,14 +1707,14 @@
   "entity.divinerpg.livestock_merchant": "Продавец существ",
   "entity.divinerpg.jack_o_man": "Приспешник Джека",
   "entity.divinerpg.cyclops": "Циклоп",
-  "entity.divinerpg.kobblin": "Землешмыг",
+  //"entity.divinerpg.kobblin": "Землешмыг",
   "entity.divinerpg.pumpkin_spider": "Тыквенный паук",
   "entity.divinerpg.rainbour": "Радугокрыл",
 
   "item.divinerpg.livestock_merchant_spawn_egg": "Яйцо призыва продавца существ",
   "item.divinerpg.jack_o_man_spawn_egg": "Яйцо призыва приспешника Джека",
   "item.divinerpg.cyclops_spawn_egg": "Яйцо призыва циклопа",
-  "item.divinerpg.kobblin_spawn_egg": "Яйцо призыва землешмыга",
+  //"item.divinerpg.kobblin_spawn_egg": "Яйцо призыва землешмыга",
   "item.divinerpg.pumpkin_spider_spawn_egg": "Яйцо призыва тыквенного паука",
   "item.divinerpg.rainbour_spawn_egg": "Яйцо призыва радугокрыла",
 

@@ -623,12 +623,12 @@
       "divinerpg:king_of_scorchers_hurt"
     ]
   },
-  "kobblin": {
-    "category": "hostile",
-    "sounds": [
-      "divinerpg:kobblin"
-    ]
-  },
+  //"kobblin": {
+    //"category": "hostile",
+  //  "sounds": [
+//      "divinerpg:kobblin"
+  //  ]
+//  },
   "lady_luna": {
     "category": "hostile",
     "sounds": [

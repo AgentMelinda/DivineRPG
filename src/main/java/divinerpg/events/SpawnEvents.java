@@ -51,7 +51,7 @@ public class SpawnEvents {
     	registerDarkSpawn(e, CAVE_CRAWLER.get());
     	registerSpawn(e, CAVECLOPS.get(), EntityCaveclops::caveClopsSpawnRule);
     	registerSpawn(e, CRAB.get(), EntityCrab::crabSpawnRule);
-    	registerSpawn(e, CYCLOPS.get(), EntityKobblin::kobblinSpawnRule);
+    	//registerSpawn(e, CYCLOPS.get(), EntityKobblin::kobblinSpawnRule);
 		registerMonsterSpawn(e, DESERT_CRAWLER.get());
 		registerMobSpawn(e, DIAMOND_DAVE.get());
     	registerSpawn(e, EHU.get());
@@ -64,11 +64,11 @@ public class SpawnEvents {
     	registerAgileMonsterSpawn(e, JUNGLE_DRAMCRYX.get());
     	registerAgileMonsterSpawn(e, JUNGLE_SPIDER.get());
     	registerSpawn(e, KING_CRAB.get(), EntityCrab::crabSpawnRule);
-    	registerSpawn(e, KOBBLIN.get(), EntityKobblin::kobblinSpawnRule);
+    	//registerSpawn(e, KOBBLIN.get(), EntityKobblin::kobblinSpawnRule);
 		registerWaterSpawn(e, LIOPLEURODON.get(), EntityLiopleurodon::liopleurodonSpawnRule);
 		registerMobSpawn(e, LIVESTOCK_MERCHANT.get());
     	registerDarkSpawn(e, MINER.get());
-    	registerSpawn(e, PUMPKIN_SPIDER.get(), EntityKobblin::kobblinSpawnRule);
+    	//registerSpawn(e, PUMPKIN_SPIDER.get(), EntityKobblin::kobblinSpawnRule);
     	registerAirSpawn(e, RAINBOUR.get(), EntityRainbour::rainbourSpawnRule);
     	registerSpawn(e, ROTATICK.get(), EntityRotatick::rotatickSpawnRule);
     	registerSpawn(e, SAGUARO_WORM.get(), EntitySaguaroWorm::saguaroWormSpawnRule);

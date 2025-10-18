@@ -1707,14 +1707,14 @@
   "entity.divinerpg.livestock_merchant": "Livestock Merchant",
   "entity.divinerpg.jack_o_man": "Jack o'Man",
   "entity.divinerpg.cyclops": "Cyclops",
-  "entity.divinerpg.kobblin": "Kobblin",
+  //"entity.divinerpg.kobblin": "Kobblin",
   "entity.divinerpg.pumpkin_spider": "Pumpkin Spider",
   "entity.divinerpg.rainbour": "Rainbour",
 
   "item.divinerpg.livestock_merchant_spawn_egg": "Livestock Merchant Spawn Egg",
   "item.divinerpg.jack_o_man_spawn_egg": "Jack o'Man Spawn Egg",
   "item.divinerpg.cyclops_spawn_egg": "Cyclops Spawn Egg",
-  "item.divinerpg.kobblin_spawn_egg": "Kobblin Spawn Egg",
+  //"item.divinerpg.kobblin_spawn_egg": "Kobblin Spawn Egg",
   "item.divinerpg.pumpkin_spider_spawn_egg": "Pumpkin Spider Spawn Egg",
   "item.divinerpg.rainbour_spawn_egg": "Rainbour Spawn Egg",
 

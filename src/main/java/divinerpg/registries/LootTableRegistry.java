@@ -39,7 +39,7 @@ public class LootTableRegistry {
     public static final ResourceLocation ENTITIES_JUNGLE_DRAMCRYX = registerTable("entities/jungle_dramcryx");
     public static final ResourceLocation ENTITIES_JUNGLE_SPIDER = registerTable("entities/jungle_spider");
     public static final ResourceLocation ENTITIES_KING_CRAB = registerTable("entities/king_crab");
-    public static final ResourceLocation ENTITIES_KOBBLIN = registerTable("entities/kobblin");
+    //public static final ResourceLocation ENTITIES_KOBBLIN = registerTable("entities/kobblin");
     public static final ResourceLocation ENTITIES_LIOPLEURODON = registerTable("entities/liopleurodon");
     public static final ResourceLocation ENTITIES_MINER = registerTable("entities/miner");
     public static final ResourceLocation ENTITIES_PUMPKIN_SPIDER = registerTable("entities/pumpkin_spider");

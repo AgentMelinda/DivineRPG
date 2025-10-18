@@ -44,7 +44,7 @@ public enum EntityStats {
     JUNGLE_DRAMCRYX(40, 7),
     JUNGLE_SPIDER(45, 7),
     KING_CRAB(100, 9),
-    KOBBLIN(35, 7),
+    //KOBBLIN(35, 7),
     LIOPLEURODON(150, 13),
     MINER(40),
     PUMPKIN_SPIDER(50, 7, 25),

@@ -110,7 +110,7 @@ public class EntityRegistry {
     public static final RegistryObject<EntityType<EntityLivestockMerchant>>  LIVESTOCK_MERCHANT  = registerEntity(EntityLivestockMerchant::new, "livestock_merchant", 	.8F, 2, 0x213c56, 0xa27d6a, MobCategory.CREATURE);
     public static final RegistryObject<EntityType<EntityJackOMan>>			 JACK_O_MAN 		 = registerEntity(EntityJackOMan::new, 			"jack_o_man", 			.8F, 2, 0x3d2322, 0xe3901d, MobCategory.CREATURE);
     public static final RegistryObject<EntityType<EntityCyclops>>			 CYCLOPS 			 = registerEntity(EntityCyclops::new, 			"cyclops", 				1.2F, 4, 0x352a1f, 0x877e47);
-    public static final RegistryObject<EntityType<EntityKobblin>>			 KOBBLIN 			 = registerEntity(EntityKobblin::new, 			"kobblin", 				.75F,1, 0x79553a, 0x73b349);
+    //public static final RegistryObject<EntityType<EntityKobblin>>			 KOBBLIN 			 = registerEntity(EntityKobblin::new, 			"kobblin", 				.75F,1, 0x79553a, 0x73b349);
     public static final RegistryObject<EntityType<EntityPumpkinSpider>>		 PUMPKIN_SPIDER 	 = registerEntity(EntityPumpkinSpider::new, 	"pumpkin_spider", 		1.4F,1, 0xffffff, 0xffffff);
     public static final RegistryObject<EntityType<EntityRainbour>>			 RAINBOUR 			 = registerEntity(EntityRainbour::new, 			"rainbour", 			    1, 1, 0xffffff, 0xffffff, MobCategory.CREATURE);
 
@@ -353,7 +353,7 @@ public class EntityRegistry {
         registerDefaultMobAttributes(event, LIVESTOCK_MERCHANT);
         registerDefaultMobAttributes(event, JACK_O_MAN);
         registerMobAttributes(event, CYCLOPS, EntityStats.CYCLOPS);
-        registerMobAttributes(event, KOBBLIN, EntityStats.KOBBLIN);
+        //registerMobAttributes(event, KOBBLIN, EntityStats.KOBBLIN);
         registerMobAttributes(event, PUMPKIN_SPIDER, EntityStats.PUMPKIN_SPIDER);
         registerMobAttributes(event, RAINBOUR, EntityStats.RAINBOUR);
 
@@ -612,7 +612,7 @@ public class EntityRegistry {
         event.registerLayerDefinition(ModelJungleDramcryx.LAYER_LOCATION, ModelJungleDramcryx::createBodyLayer);
         event.registerLayerDefinition(ModelJungleSpider.LAYER_LOCATION, ModelJungleSpider::createBodyLayer);
         event.registerLayerDefinition(ModelKingCrab.LAYER_LOCATION,	ModelKingCrab::createBodyLayer);
-        event.registerLayerDefinition(ModelKobblin.LAYER_LOCATION, ModelKobblin::createBodyLayer);
+//        event.registerLayerDefinition(ModelKobblin.LAYER_LOCATION, ModelKobblin::createBodyLayer);
         event.registerLayerDefinition(ModelLiopleurodon.LAYER_LOCATION, ModelLiopleurodon::createBodyLayer);
         event.registerLayerDefinition(ModelLivestockMerchant.LAYER_LOCATION, ModelLivestockMerchant::createBodyLayer);
         event.registerLayerDefinition(ModelPumpkinSpider.LAYER_LOCATION, ModelPumpkinSpider::createBodyLayer);
@@ -833,7 +833,7 @@ public class EntityRegistry {
         event.registerEntityRenderer(JUNGLE_DRAMCRYX.get(),	 (Context context) -> new RenderDivineMob<>(context, "jungle_dramcryx", new ModelJungleDramcryx<>(context), .64F, 1.5F));
         event.registerEntityRenderer(JUNGLE_SPIDER.get(),	 (Context context) -> new RenderDivineMob<>(context, "jungle_spider", new ModelJungleSpider(context), .8F));
         event.registerEntityRenderer(KING_CRAB.get(),		 (Context context) -> new RenderDivineMob<>(context, "king_crab", new ModelKingCrab(context), 1.3F, 1.2F));
-        event.registerEntityRenderer(KOBBLIN.get(),			 RenderKobblin::new);
+        //event.registerEntityRenderer(KOBBLIN.get(),			 RenderKobblin::new);
         event.registerEntityRenderer(LIOPLEURODON.get(),	 RenderLiopleurodon::new);
         event.registerEntityRenderer(LIVESTOCK_MERCHANT.get(),(Context context) -> new RenderDivineMob<>(context, "livestock_merchant", new ModelLivestockMerchant(context), .4F));
         event.registerEntityRenderer(MINER.get(),			 RenderMiner::new);
